@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Lightbulb } from "lucide-react";
 import { FaXTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa6";
-
+ 
 const Footer = () => {
   return (
     <footer className="mt-24 bg-slate-950 text-slate-400 px-6 md:px-16 py-14">
