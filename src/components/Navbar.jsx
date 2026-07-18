@@ -1,4 +1,4 @@
-"use client";
+"use client"; 
 
 import { authClient } from "@/lib/auth-client";
 import { Lightbulb, Menu, X } from "lucide-react";
