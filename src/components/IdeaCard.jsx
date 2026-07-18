@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Lightbulb, Users, Tag } from "lucide-react";
 
-const IdeaCard = ({ idea }) => {
+const IdeaCard = ({ idea }) => { 
   const { _id, title, shortDescription, category, targetAudience, imageUrl } = idea;
  
   return (
