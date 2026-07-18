@@ -1,5 +1,5 @@
 "use client"; 
-
+ 
 import { authClient } from "@/lib/auth-client";
 import { Lightbulb, Menu, X } from "lucide-react";
 import Link from "next/link";
