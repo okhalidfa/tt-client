@@ -3,7 +3,7 @@ import { Lightbulb, Users, Tag } from "lucide-react";
 
 const IdeaCard = ({ idea }) => {
   const { _id, title, shortDescription, category, targetAudience, imageUrl } = idea;
-
+ 
   return (
     <div className="rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden bg-white dark:bg-slate-900 hover:shadow-lg transition-shadow flex flex-col">
       {imageUrl ? (
